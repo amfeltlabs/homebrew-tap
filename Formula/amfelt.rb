@@ -3,24 +3,24 @@
 class Amfelt < Formula
   desc "Agent that runs Amfelt data pipelines on your own infrastructure"
   homepage "https://amfelt.com"
-  version "5.2.1"
+  version "5.3.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://releases.amfelt.com/cli/v5.2.1/amfelt_Darwin_arm64.tar.gz"
-      sha256 "f5363de5f825d5dbef85d355f0abe555746a56adcc176f3bc8bed2f66b5b958a"
+      url "https://releases.amfelt.com/cli/v5.3.2/amfelt_Darwin_arm64.tar.gz"
+      sha256 "0919216ec114f8efce054a8375187da34efb29815d0dfbaeb4608caa01928fa9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://releases.amfelt.com/cli/v5.2.1/amfelt_Linux_x86_64.tar.gz"
-      sha256 "ead2ab5be84d5622739f164e01c415f6a3caeefee0fbce5ba6517261f97335c6"
+      url "https://releases.amfelt.com/cli/v5.3.2/amfelt_Linux_x86_64.tar.gz"
+      sha256 "d0dcd42b2d42497a3c5df6a3a4b86abf84d1a04dbfa83315113a2554b96eb3c4"
     end
     on_arm do
-      url "https://releases.amfelt.com/cli/v5.2.1/amfelt_Linux_arm64.tar.gz"
-      sha256 "ed357c2c6540acb4e0c999b1a8d2c25877fdc517592b597bf25ce79bafbdfeca"
+      url "https://releases.amfelt.com/cli/v5.3.2/amfelt_Linux_arm64.tar.gz"
+      sha256 "8f94f1607021683c35cf92fd120f9805d85adb20a469b4073aea8e31de23a402"
     end
   end
 
